@@ -1,0 +1,2 @@
+                                        #This is the logic of the calculator#
+so the basic logic of calculotor is that is has 
