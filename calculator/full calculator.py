@@ -16,29 +16,30 @@ def main():
         operations=input("Enter arithimatic fucntions(+,*,/,-)")  
 
 
-            # now to switch between operations we will use loops 
+            # now to switch between operations we will use conditons 
 
         if operations=="+":
 
-         print("The addition between given numbers is :",num1+num2)
+         print("The addition between given numbers is :",num1+num2)   # it will print the addition
 
         elif operations=="-":
-            print("The subtraction between given number is  :",num1-num2)
+            print("The subtraction between given number is  :",num1-num2)  # it will print subtraction
 
         elif operations=="*":
-            print("The multiplycation between given numbers is :",num1*num2)
+            print("The multiplycation between given numbers is :",num1*num2) # it will print multiplycation
 
         elif operations=="/":
 
          if num2!=0:
-             print("The division between given numbers is:",num1/num2)
+             print("The division between given numbers is:",num1/num2) # it will print division
          else:
-            print("Error: Division by zero is not allowed.")
+            print("Error: Division by zero is not allowed.")  # if any number is divided by zero this error will be thrown
                     
-    except ValueError:
+    except ValueError:   # it will be used to handel invalid inputs by user
      print("Option choosed is invalid")
     print("Please choose a valid option  ")
-     
+
+     # and the following code of block will restart the enitire code multiple times
     restart=input("Do you want to start another instance?, yes or no:").lower()
     if restart.lower() != "yes":
         print("thank you for using calculator")
