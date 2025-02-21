@@ -3,4 +3,5 @@ I have made a basic calculator in python programming language for my first inter
 
 Following Steps I followed for creating basic calculator
 1.variable-we need variables which store number and futher operate on them
- I have used num1 and nm
+ I have used num1 and num2 as varible names and we will store inputs from user 
+ for getting input from user we use input fucntion
