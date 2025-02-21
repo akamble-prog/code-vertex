@@ -1,2 +1,6 @@
                                         #This is the logic of the calculator#
-so the basic logic of calculotor is that is has 
+I have made a basic calculator in python programming language for my first intership at code vertex
+
+Following Steps I followed for creating basic calculator
+1.variable-we need variables which store number and futher operate on them
+ I have used num1 and nm
